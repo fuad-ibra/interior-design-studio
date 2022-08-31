@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Дизайн интерьера</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220801180938">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll="120" data-scroll-show>
+			<div class="header__container">
+				<a class="header__logo" href="home.html">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип"></picture>
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="home.html">
+								главная
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="design.html">
+								дизайн интерьера
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="renovation.html">
+								ремонт квартир
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<a class="header__phone" href="tel:+77777777777">
+					<svg width="32" height="32" viewBox="0 0 512 512">
+						<path d="m412.424 349.946-.273.688c-2.577 6.578-5.166 13.149-7.88 19.677-2.331 5.61-4.743 11.241-7.408 16.7-1.593 3.26-4.116 8.409-6.676 10.969a51.473 51.473 0 0 1 -8.588 6.928c-17.86 11.431-40.186 9.82-59.813 4.557-84.306-22.585-196.673-134.952-219.26-219.257-5.26-19.633-6.868-41.965 4.574-59.825a50.861 50.861 0 0 1 6.914-8.577c2.557-2.56 7.712-5.082 10.969-6.675 5.465-2.665 11.1-5.077 16.71-7.408 6.525-2.7 13.1-5.3 19.673-7.88l.685-.264a15.416 15.416 0 0 1 19.044 6.655l32.593 56.466a15.517 15.517 0 0 1 -5.66 21.128c-11.529 6.661-20.727 17.023-23.444 30.311a44.606 44.606 0 0 0 8.22 36.581 347.09 347.09 0 0 0 32.12 36.355 347.2 347.2 0 0 0 36.363 32.125 44.586 44.586 0 0 0 36.584 8.221c13.276-2.714 23.65-11.918 30.306-23.447a15.508 15.508 0 0 1 21.122-5.66l56.46 32.6a15.413 15.413 0 0 1 6.665 19.032z">
+						</path>
+					</svg>
+					<span>+7 777 777 77 77</span>
+				</a>
+				<button class="icon-menu" type="button">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+
+			<section class="design-banner bg-overlay" data-fullscreen>
+				<div class="design-banner__wrapper">
+					<div class="design-banner__container">
+						<div class="content-banner">
+							<h1 class="content-banner__title banner-title">
+								Дизайн интерьера
+							</h1>
+							<p class="content-banner__text banner-text">
+								Наши дизайнеры проектируют реальные интерьеры, а не красивые картинки.
+							</p>
+							<a class="content-banner__button banner-button button" data-popup="#popup" href="#">
+								подробнее
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="project section-padding">
+				<div class="project__container">
+					<h2 class="title" data-aos="fade-right">
+						Услуги по <span class="brown">Проектированию Интерьера</span>
+					</h2>
+					<div class="project__row">
+						<div class="project__col item-project" data-aos="fade-up" data-aos-delay="100">
+							<h3 class="item-project__title">
+								базовый проект
+							</h3>
+							<div class="item-project__image">
+								<div class="item-project__image-ibg">
+									<picture><source srcset="img/design/project/1.webp" type="image/webp"><img src="img/design/project/1.jpg" alt="Базовый проект"></picture>
+								</div>
+							</div>
+							<span class="item-project__text">
+								срок: 12 - 15 рабочих дней
+							</span>
+							<ul class="item-project__list">
+								<li>Обмерный план с выездом</li>
+								<li>Планировочные решения - 2</li>
+								<li>Электропроект (размещение розеток, выключателей, слаботочных приборов, сценариев освещения)</li>
+								<li>План раскладки напольного покрытия, потолков и отделки стен</li>
+								<li>Визуализация в виде коллажей</li>
+							</ul>
+							<div class="item-project__price">
+								Цена:&nbsp; от
+								<span>700</span>&nbsp;
+								руб м.<sup>2</sup>
+							</div>
+							<a class="button" data-popup="#popup" href="#">
+								запрос проекта
+							</a>
+						</div>
+						<div class="project__col item-project" data-aos="fade-up" data-aos-delay="400">
+							<h3 class="item-project__title">
+								стандартный проект
+							</h3>
+							<div class="item-project__image">
+								<div class="item-project__image-ibg">
+									<picture><source srcset="img/design/project/2.webp" type="image/webp"><img src="img/design/project/2.jpg" alt="Стандартный проект"></picture>
+								</div>
+							</div>
+							<span class="item-project__text">
+								срок: 15 - 30 рабочих дней
+							</span>
+							<ul class="item-project__list">
+								<li>Все, что есть в базовом проекте</li>
+								<li>Планировочные решения - 2 - 3</li>
+								<li>Визуализация в виде 3D коллажей</li>
+								<li>Подбор строительных материалов, мебели, сантехники и электрики</li>
+							</ul>
+							<div class="item-project__price">
+								Цена:&nbsp; от
+								<span>1200</span>&nbsp;
+								руб м.<sup>2</sup>
+							</div>
+							<a class="button" data-popup="#popup" href="#">
+								запрос проекта
+							</a>
+						</div>
+						<div class="project__col item-project" data-aos="fade-up" data-aos-delay="700">
+							<h3 class="item-project__title">
+								авторский проект
+							</h3>
+							<div class="item-project__image">
+								<div class="item-project__image-ibg">
+									<picture><source srcset="img/design/project/3.webp" type="image/webp"><img src="img/design/project/3.jpg" alt="Авторский проект"></picture>
+								</div>
+							</div>
+							<span class="item-project__text">
+								срок: от 45 рабочих дней
+							</span>
+							<ul class="item-project__list">
+								<li>Все, что есть в стандартном проекте</li>
+								<li>Развертки каждого помещения с подробным описанием отделки стен и размерами</li>
+								<li>Реалистичные визуализации в виде 3D коллажей</li>
+								<li>Сметы на строительные материалы (черновые и чистовые)</li>
+							</ul>
+							<div class="item-project__price">
+								Цена:&nbsp; от
+								<span>1800</span>&nbsp;
+								руб м.<sup>2</sup>
+							</div>
+							<a class="button" data-popup="#popup" href="#">
+								запрос проекта
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="consultation section-padding">
+				<div class="consultation__container">
+					<div class="consultation__row">
+						<h2 class="consultation__title" data-aos="fade-right">
+							запишитесь на бесплатную консультацию
+						</h2>
+						<a class="consultation__button button" data-popup="#popup" data-aos="fade-left" href="#">
+							записаться
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="portfolio-design portfolio section-padding">
+				<div class="portfolio__container">
+					<h2 class="title" data-aos="fade-up">
+						Выполненные <span class="brown">Проекты</span>
+					</h2>
+					<div class="portfolio-design__slider swiper">
+						<div class="swiper-wrapper">
+							<div class="portfolio__slide item-portfolio swiper-slide" data-aos="fade-up" data-aos-delay="100">
+								<div class="gallery" data-gallery>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/1.jpeg">
+										<picture><source srcset="img/design/portfolio/apart1/1mini.webp" type="image/webp"><img src="img/design/portfolio/apart1/1mini.jpg" alt="ЖК Гоголь Дом"></picture>
+									</a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/3.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/4.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/5.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/6.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/7.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/8.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/9.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/10.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart1/11.jpeg"></a>
+								</div>
+								<h3 class="item-portfolio__title">
+									ЖК Гоголь Дом, 50 кв.м.
+									<span>стиль Контемпорари</span>
+								</h3>
+								<div class="item-portfolio__info">
+									<span>Стоимость 60 000 ₽</span>
+									<span>Сроки 30 рабочих дней</span>
+								</div>
+							</div>
+							<div class="portfolio__slide item-portfolio swiper-slide" data-aos="fade-up" data-aos-delay="400">
+								<div class="gallery" data-gallery>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart2/1.jpeg">
+										<picture><source srcset="img/design/portfolio/apart2/1mini.webp" type="image/webp"><img src="img/design/portfolio/apart2/1mini.jpg" alt="ЖК Эталон"></picture>
+									</a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart2/2.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart2/3.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart2/4.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart2/5.jpeg"></a>
+								</div>
+								<h3 class="item-portfolio__title">
+									ЖК Эталон, 80 кв.м.
+									<span>стиль Современный</span>
+								</h3>
+								<div class="item-portfolio__info">
+									<span>Стоимость 160 000 ₽</span>
+									<span>Сроки 45 рабочих дней</span>
+								</div>
+							</div>
+							<div class="portfolio__slide item-portfolio swiper-slide" data-aos="fade-up" data-aos-delay="700">
+								<div class="gallery" data-gallery>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/1.jpeg">
+										<picture><source srcset="img/design/portfolio/apart3/1mini.webp" type="image/webp"><img src="img/design/portfolio/apart3/1mini.jpeg" alt="ЖК на ул. Усиевича"></picture>
+									</a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/2.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/3.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/4.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/5.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/6.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/7.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/8.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/9.jpeg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart3/10.jpeg"></a>
+								</div>
+								<h3 class="item-portfolio__title">
+									ЖК на ул. Усиевича, 74 кв.м.
+									<span>стиль Французский</span>
+								</h3>
+								<div class="item-portfolio__info">
+									<span>Стоимость 115 000 ₽</span>
+									<span>Сроки 30 рабочих дней</span>
+								</div>
+							</div>
+							<div class="portfolio__slide item-portfolio swiper-slide">
+								<div class="gallery" data-gallery>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/1.jpg">
+										<picture><source srcset="img/design/portfolio/apart4/1mini.webp" type="image/webp"><img src="img/design/portfolio/apart4/1mini.jpg" alt="ЖК Государев Дом 18 кв.м."></picture>
+									</a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/2.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/3.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/4.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/5.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/6.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/7.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/8.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/9.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/10.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/11.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/12.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/13.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/14.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart4/15.jpg"></a>
+								</div>
+								<h3 class="item-portfolio__title">
+									ЖК Государев Дом 18 кв.м.
+									<span>Нео-классика</span>
+								</h3>
+							</div>
+							<div class="portfolio__slide item-portfolio swiper-slide">
+								<div class="gallery" data-gallery>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/1.jpg">
+										<picture><source srcset="img/design/portfolio/apart5/1mini.webp" type="image/webp"><img src="img/design/portfolio/apart5/1mini.jpg" alt="ЖК Государев Дом 18 кв.м."></picture>
+									</a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/2.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/3.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/4.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/5.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/6.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/7.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/8.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/9.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart5/10.jpg"></a>
+								</div>
+								<h3 class="item-portfolio__title">
+									ЖК Государев Дом 18 кв.м.
+									<span>Нео-классика</span>
+								</h3>
+							</div>
+							<div class="portfolio__slide item-portfolio swiper-slide">
+								<div class="gallery" data-gallery>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/1.jpg">
+										<picture><source srcset="img/design/portfolio/apart6/1mini.webp" type="image/webp"><img src="img/design/portfolio/apart6/1mini.jpg" alt="ЖК Государев Дом 18 кв.м."></picture>
+									</a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/2.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/3.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/4.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/5.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/6.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/7.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/8.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/9.jpg"></a>
+									<a class="item-portfolio__image-ibg" href="img/design/portfolio/apart6/10.jpg"></a>
+								</div>
+								<h3 class="item-portfolio__title">
+									ЖК Государев Дом 18 кв.м.
+									<span>Нео-классика</span>
+								</h3>
+							</div>
+						</div>
+						<div class="portfolio-design__pagination swiper-pagination" data-aos="zoom-in" data-aos-delay="50"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="procedure section-padding section-background">
+				<h2 class="title" data-aos="fade-right">
+					<span class="brown">Этапы</span> Работы
+				</h2>
+				<p class="procedure__text" data-aos="fade-left">
+					Для того, чтобы дать вам четкое понимание, как происходит разработка и реализация дизайн-проекта в нашей студии, давайте
+					разберемся с основными этапами:
+				</p>
+				<div class="procedure__spoilers spoilers" data-spollers>
+					<div class="spoilers__item" data-aos="fade-up" data-aos-delay="50">
+						<button class="spoilers__title" data-spoller type="button">
+							<span>01</span> Техническое задание
+						</button>
+						<div class="spoilers__body body-spoilers">
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									результат этапа:
+								</h3>
+								<p class="body-spoilers__text">
+									структурированная необходимая информация для начала работы
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									сроки реализации:
+								</h3>
+								<p class="body-spoilers__text">
+									5 рабочих дней
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									состав этапа работы:
+								</h3>
+								<ul class="body-spoilers__list">
+									<li class="body-spoilers__item">
+										сбор информации по объекту
+									</li>
+									<li class="body-spoilers__item">
+										анкетирование по желаемому интерьеру
+									</li>
+									<li class="body-spoilers__item">
+										бриф клиента
+									</li>
+									<li class="body-spoilers__item">
+										анализ полученной информации
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="spoilers__item" data-aos="fade-up" data-aos-delay="100">
+						<button class="spoilers__title" type="button" data-spoller>
+							<span>02</span> Эскизный проект
+						</button>
+						<div class="spoilers__body body-spoilers">
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									результат этапа:
+								</h3>
+								<p class="body-spoilers__text">
+									Готовый анализ общего состояния квартиры и разработка функционального планировочного решения
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									сроки реализации:
+								</h3>
+								<p class="body-spoilers__text">
+									8 - 12 рабочих дней
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									состав этапа работы:
+								</h3>
+								<ul class="body-spoilers__list">
+									<li class="body-spoilers__item">
+										отрисовка планировочного решения
+									</li>
+									<li class="body-spoilers__item">
+										грамотно-продуманное пространство с точки зрения геометрии
+									</li>
+									<li class="body-spoilers__item">
+										обсуждение и утверждение у клиента
+									</li>
+									<li class="body-spoilers__item">
+										концепт борда (мебель, материалы, цвета)
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="spoilers__item" data-aos="fade-up" data-aos-delay="150">
+						<button class="spoilers__title" type="button" data-spoller>
+							<span>03</span> 3D-визуализация дизайна
+						</button>
+						<div class="spoilers__body body-spoilers">
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									результат этапа:
+								</h3>
+								<p class="body-spoilers__text">
+									фотореалистичные изображения будущего интерьера, в объеме отображающие, согласованные ранее идеи, выбранные материалы и цветовую гамму
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									сроки реализации:
+								</h3>
+								<p class="body-spoilers__text">
+									8 - 10 рабочих дней
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									состав этапа работы:
+								</h3>
+								<ul class="body-spoilers__list">
+									<li class="body-spoilers__item">
+										3D визуализация
+									</li>
+									<li class="body-spoilers__item">
+										чертежи
+									</li>
+									<li class="body-spoilers__item">
+										облако точек - информационная модель объекта
+									</li>
+									<li class="body-spoilers__item">
+										расчет стоимости материалов, суммарной мощности электрификации
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="spoilers__item" data-aos="fade-up" data-aos-delay="200">
+						<button class="spoilers__title" type="button" data-spoller>
+							<span>04</span> Строительные чертежи
+						</button>
+						<div class="spoilers__body body-spoilers">
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									результат этапа:
+								</h3>
+								<p class="body-spoilers__text">
+									адаптация инженерных решений со строительными чертежами дизайн-проекта, согласование со смежными поставщиками оборудования необходимых задач
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									сроки реализации:
+								</h3>
+								<p class="body-spoilers__text">
+									8 рабочих дней
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									состав этапа работы:
+								</h3>
+								<ul class="body-spoilers__list">
+									<li class="body-spoilers__item">
+										оформление двухмерных чертежей
+									</li>
+									<li class="body-spoilers__item">
+										спецификация
+									</li>
+									<li class="body-spoilers__item">
+										смета на строительные работы
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="spoilers__item" data-aos="fade-up" data-aos-delay="250">
+						<button class="spoilers__title" data-spoller type="button">
+							<span>05</span> Реализация проекта
+						</button>
+						<div class="spoilers__body body-spoilers">
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									результат этапа:
+								</h3>
+								<p class="body-spoilers__text">
+									организация выхода на объект специалистов для выполнения последовательности работ. Контроль технологического процесса в ходе строительных работ, соблюдение сроков
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									сроки реализации:
+								</h3>
+								<p class="body-spoilers__text">
+									8 - 12 рабочих дней
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									состав этапа работы:
+								</h3>
+								<ul class="body-spoilers__list">
+									<li class="body-spoilers__item">
+										авторский надзор
+									</li>
+									<li class="body-spoilers__item">
+										управление строительством
+									</li>
+									<li class="body-spoilers__item">
+										постановка срока по графику работ (диаграмма Ганта)
+									</li>
+									<li class="body-spoilers__item">
+										создание графика закупок (постоянная актуализация)
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="spoilers__item" data-aos="fade-up" data-aos-delay="300">
+						<button class="spoilers__title" data-spoller type="button">
+							<span>06</span> Декорирование и передача объекта
+						</button>
+						<div class="spoilers__body body-spoilers">
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									результат этапа:
+								</h3>
+								<p class="body-spoilers__text">
+									оживим интерьер, чтобы он смотрелся как с обложек интерьерных журналов
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									сроки реализации:
+								</h3>
+								<p class="body-spoilers__text">
+									8 - 12 рабочих дней
+								</p>
+							</div>
+							<div class="body-spoilers__content">
+								<h3 class="body-spoilers__title">
+									состав этапа работы:
+								</h3>
+								<ul class="body-spoilers__list">
+									<li class="body-spoilers__item">
+										подборка, компоновка и комплектация пространства предметами, аксессуарами, текстилем, картинами и функциональными элементами
+									</li>
+									<li class="body-spoilers__item">
+										клининг объекта
+									</li>
+									<li class="body-spoilers__item">
+										подбор растений и ароматов для пространства
+									</li>
+									<li class="body-spoilers__item">
+										передача ключей заказчику и перекодировка внутренней части замка
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="diplomas section-padding">
+				<div class="diplomas__container">
+					<h2 class="title" data-aos="fade-right">
+						<span class="brown">Сертификаты</span> и <span class="brown">Дипломы</span>
+					</h2>
+					<div class="diplomas__row">
+						<div class="diplomas__col item-diplomas" data-aos="fade-up" data-aos-delay="100">
+							<a class="item-diplomas__image-ibg" href="#">
+								<picture><source srcset="img/design/diplomas/1.webp" type="image/webp"><img src="img/design/diplomas/1.jpg" alt="Сертификат"></picture>
+							</a>
+						</div>
+						<div class="diplomas__col item-diplomas" data-aos="fade-up" data-aos-delay="400">
+							<a class="item-diplomas__image-ibg" href="#">
+								<picture><source srcset="img/design/diplomas/2.webp" type="image/webp"><img src="img/design/diplomas/2.jpg" alt="Сертификат"></picture>
+							</a>
+						</div>
+						<div class="diplomas__col item-diplomas" data-aos="fade-up" data-aos-delay="700">
+							<a class="item-diplomas__image-ibg" href="#">
+								<picture><source srcset="img/design/diplomas/3.webp" type="image/webp"><img src="img/design/diplomas/3.jpg" alt="Сертификат"></picture>
+							</a>
+						</div>
+						<div class="diplomas__col item-diplomas" data-aos="fade-up" data-aos-delay="1000">
+							<a class="item-diplomas__image-ibg" href="#">
+								<picture><source srcset="img/design/diplomas/4.webp" type="image/webp"><img src="img/design/diplomas/4.jpg" alt="Сертификат"></picture>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="feedback section-padding">
+				<div class="feedback__container">
+					<div class="feedback__box">
+						<div class="feedback__content">
+							<h3 class="feedback__title">
+								Обратная связь
+							</h3>
+							<form class="feedback__form form">
+								<div class="form__box">
+									<input class="form__username" id="feedback-username" type="text" name="name">
+									<label for="feedback-username">Ваше имя<sup>*</sup>:</label>
+								</div>
+								<div class="form__box">
+									<input class="form__phone tel" id="feedback-phone" type="text" name="phone">
+									<label for="feedback-phone">Телефон<sup>*</sup>:</label>
+								</div>
+								<p class="form__agreement">
+									Нажимая на кнопку, я принимаю
+									<a href="#">
+										условия пользовательского соглашения
+									</a>
+									и даю согласие на обработку моих персональных данных.
+								</p>
+								<button class="form__button button" type="submit">
+									отправить
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="scrollup showBtn showBtn-hide">
+				<svg width="20" height="20" viewBox="0 0 240.835 240.835">
+					<path d="M129.007,57.819c-4.68-4.68-12.499-4.68-17.191,0L3.555,165.803c-4.74,4.74-4.74,12.427,0,17.155 c4.74,4.74,12.439,4.74,17.179,0l99.683-99.406l99.671,99.418c4.752,4.74,12.439,4.74,17.191,0c4.74-4.74,4.74-12.427,0-17.155 L129.007,57.819z" fill="" data-original="#000000"></path>
+				</svg>
+			</div>
+
+			<div class="multibutton">
+				<ul class="multibutton__list">
+					<li class="multibutton__item">
+						<a class="multibutton__icon" href="mailto:info@alltrueist.ru">
+							<svg width="30" height="30" viewBox="0 0 512 512">
+								<path d="m408.343 362.786a10.171 10.171 0 0 0 10.157-10.158v-191.858l-155.283 123.31a11.594 11.594 0 0 1 -14.436 0l-155.281-123.31v191.858a10.169 10.169 0 0 0 10.157 10.158zm-12.62-213.572-139.723 110.956-139.725-110.956z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="multibutton__item">
+						<a class="multibutton__icon" data-popup="#popup" href="#">
+							<svg width="30" height="30" viewBox="0 0 512 512">
+								<path d="m412.424 349.946-.273.688c-2.577 6.578-5.166 13.149-7.88 19.677-2.331 5.61-4.743 11.241-7.408 16.7-1.593 3.26-4.116 8.409-6.676 10.969a51.473 51.473 0 0 1 -8.588 6.928c-17.86 11.431-40.186 9.82-59.813 4.557-84.306-22.585-196.673-134.952-219.26-219.257-5.26-19.633-6.868-41.965 4.574-59.825a50.861 50.861 0 0 1 6.914-8.577c2.557-2.56 7.712-5.082 10.969-6.675 5.465-2.665 11.1-5.077 16.71-7.408 6.525-2.7 13.1-5.3 19.673-7.88l.685-.264a15.416 15.416 0 0 1 19.044 6.655l32.593 56.466a15.517 15.517 0 0 1 -5.66 21.128c-11.529 6.661-20.727 17.023-23.444 30.311a44.606 44.606 0 0 0 8.22 36.581 347.09 347.09 0 0 0 32.12 36.355 347.2 347.2 0 0 0 36.363 32.125 44.586 44.586 0 0 0 36.584 8.221c13.276-2.714 23.65-11.918 30.306-23.447a15.508 15.508 0 0 1 21.122-5.66l56.46 32.6a15.413 15.413 0 0 1 6.665 19.032z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="multibutton__item">
+						<a class="multibutton__icon" href="https://telegram.me/alltrueist">
+							<svg width="32" height="32" viewBox="0 0 24 24">
+								<path d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li class="multibutton__item">
+						<a class="multibutton__icon" href="https://wa.me/77777777777">
+							<svg width="32" height="32" viewBox="0 0 176 176">
+								<path d="m126.8 49.2a54.57 54.57 0 0 0 -87.42 63.13l-5.79 28.11a2.08 2.08 0 0 0 .33 1.63 2.11 2.11 0 0 0 2.24.87l27.55-6.53a54.56 54.56 0 0 0 63.09-87.21zm-8.59 68.56a42.74 42.74 0 0 1 -49.22 8l-3.84-1.9-16.89 4 .05-.21 3.5-17-1.88-3.71a42.72 42.72 0 0 1 7.86-49.59 42.73 42.73 0 0 1 60.42 0 2.28 2.28 0 0 0 .22.22 42.72 42.72 0 0 1 -.22 60.19z">
+								</path>
+								<path d="m116.71 105.29c-2.07 3.26-5.34 7.25-9.45 8.24-7.2 1.74-18.25.06-32-12.76l-.17-.15c-12.09-11.21-15.23-20.54-14.47-27.94.42-4.2 3.92-8 6.87-10.48a3.93 3.93 0 0 1 6.15 1.41l4.45 10a3.91 3.91 0 0 1 -.49 4l-2.25 2.92a3.87 3.87 0 0 0 -.35 4.32c1.26 2.21 4.28 5.46 7.63 8.47 3.76 3.4 7.93 6.51 10.57 7.57a3.82 3.82 0 0 0 4.19-.88l2.61-2.63a4 4 0 0 1 3.9-1l10.57 3a4 4 0 0 1 2.24 5.91z">
+								</path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+				<div class="multibutton__button">
+					<svg width="32" height="32" viewBox="0 0 512.076 512.076">
+						<path d="M499.639,396.039l-103.646-69.12c-13.153-8.701-30.784-5.838-40.508,6.579l-30.191,38.818 c-3.88,5.116-10.933,6.6-16.546,3.482l-5.743-3.166c-19.038-10.377-42.726-23.296-90.453-71.04s-60.672-71.45-71.049-90.453 l-3.149-5.743c-3.161-5.612-1.705-12.695,3.413-16.606l38.792-30.182c12.412-9.725,15.279-27.351,6.588-40.508l-69.12-103.646 C109.12,1.056,91.25-2.966,77.461,5.323L34.12,31.358C20.502,39.364,10.511,52.33,6.242,67.539 c-15.607,56.866-3.866,155.008,140.706,299.597c115.004,114.995,200.619,145.92,259.465,145.92 c13.543,0.058,27.033-1.704,40.107-5.239c15.212-4.264,28.18-14.256,36.181-27.878l26.061-43.315
+							C517.063,422.832,513.043,404.951,499.639,396.039z M494.058,427.868l-26.001,43.341c-5.745,9.832-15.072,17.061-26.027,20.173 c-52.497,14.413-144.213,2.475-283.008-136.32S8.29,124.559,22.703,72.054c3.116-10.968,10.354-20.307,20.198-26.061 l43.341-26.001c5.983-3.6,13.739-1.855,17.604,3.959l37.547,56.371l31.514,47.266c3.774,5.707,2.534,13.356-2.85,17.579
+							l-38.801,30.182c-11.808,9.029-15.18,25.366-7.91,38.332l3.081,5.598c10.906,20.002,24.465,44.885,73.967,94.379 c49.502,49.493,74.377,63.053,94.37,73.958l5.606,3.089c12.965,7.269,29.303,3.898,38.332-7.91l30.182-38.801 c4.224-5.381,11.87-6.62,17.579-2.85l103.637,69.12C495.918,414.126,497.663,421.886,494.058,427.868z">
+						</path>
+						<path d="M291.161,86.39c80.081,0.089,144.977,64.986,145.067,145.067c0,4.713,3.82,8.533,8.533,8.533s8.533-3.82,8.533-8.533 c-0.099-89.503-72.63-162.035-162.133-162.133c-4.713,0-8.533,3.82-8.533,8.533S286.448,86.39,291.161,86.39z">
+						</path>
+						<path d="M291.161,137.59c51.816,0.061,93.806,42.051,93.867,93.867c0,4.713,3.821,8.533,8.533,8.533 c4.713,0,8.533-3.82,8.533-8.533c-0.071-61.238-49.696-110.863-110.933-110.933c-4.713,0-8.533,3.82-8.533,8.533 S286.448,137.59,291.161,137.59z">
+						</path>
+						<path d="M291.161,188.79c23.552,0.028,42.638,19.114,42.667,42.667c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533 c-0.038-32.974-26.759-59.696-59.733-59.733c-4.713,0-8.533,3.82-8.533,8.533S286.448,188.79,291.161,188.79z">
+						</path>
+					</svg>
+				</div>
+			</div>
+
+			<div class="preloader-wrapper">
+				<div class="preloader-icon">
+					<span class="preloader-dot"></span>
+					<span class="preloader-dot"></span>
+					<span class="preloader-dot"></span>
+					<span class="preloader-dot"></span>
+					<span class="preloader-dot"></span>
+					<span class="preloader-dot"></span>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer section-padding">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__col">
+						<a class="footer__logo logo" href="home.html">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип"></picture>
+						</a>
+						<p class="footer__text">
+							Создаём интерьеры мечты в современном стиле. Разрабатываем интерьеры домов, квартир и общественных пространств.
+						</p>
+					</div>
+					<div class="footer__col">
+						<h4 class="footer__title">
+							Меню
+						</h4>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a class="menu-footer__link" href="home.html">
+										Главная
+									</a>
+								</li>
+								<li class="menu-footer__item">
+									<a class="menu-footer__link" href="design.html">
+										Дизайн интерьера
+									</a>
+								</li>
+								<li class="menu-footer__item">
+									<a class="menu-footer__link" href="renovation.html">
+										Ремонт квартир
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__col">
+						<h4 class="footer__title">
+							Связаться с нами
+						</h4>
+						<div class="footer__contacts contacts-footer">
+							<a class="contacts-footer__item" href="tel:+77777777777">
+								<svg width="24" height="24" viewBox="0 0 512.076 512.076">
+									<path d="M499.639,396.039l-103.646-69.12c-13.153-8.701-30.784-5.838-40.508,6.579l-30.191,38.818 c-3.88,5.116-10.933,6.6-16.546,3.482l-5.743-3.166c-19.038-10.377-42.726-23.296-90.453-71.04s-60.672-71.45-71.049-90.453 l-3.149-5.743c-3.161-5.612-1.705-12.695,3.413-16.606l38.792-30.182c12.412-9.725,15.279-27.351,6.588-40.508l-69.12-103.646 C109.12,1.056,91.25-2.966,77.461,5.323L34.12,31.358C20.502,39.364,10.511,52.33,6.242,67.539 c-15.607,56.866-3.866,155.008,140.706,299.597c115.004,114.995,200.619,145.92,259.465,145.92 c13.543,0.058,27.033-1.704,40.107-5.239c15.212-4.264,28.18-14.256,36.181-27.878l26.061-43.315 C517.063,422.832,513.043,404.951,499.639,396.039z M494.058,427.868l-26.001,43.341c-5.745,9.832-15.072,17.061-26.027,20.173 c-52.497,14.413-144.213,2.475-283.008-136.32S8.29,124.559,22.703,72.054c3.116-10.968,10.354-20.307,20.198-26.061 l43.341-26.001c5.983-3.6,13.739-1.855,17.604,3.959l37.547,56.371l31.514,47.266c3.774,5.707,2.534,13.356-2.85,17.579     l-38.801,30.182c-11.808,9.029-15.18,25.366-7.91,38.332l3.081,5.598c10.906,20.002,24.465,44.885,73.967,94.379 c49.502,49.493,74.377,63.053,94.37,73.958l5.606,3.089c12.965,7.269,29.303,3.898,38.332-7.91l30.182-38.801 c4.224-5.381,11.87-6.62,17.579-2.85l103.637,69.12C495.918,414.126,497.663,421.886,494.058,427.868z">
+									</path>
+									<path d="M291.161,86.39c80.081,0.089,144.977,64.986,145.067,145.067c0,4.713,3.82,8.533,8.533,8.533s8.533-3.82,8.533-8.533     c-0.099-89.503-72.63-162.035-162.133-162.133c-4.713,0-8.533,3.82-8.533,8.533S286.448,86.39,291.161,86.39z">
+									</path>
+									<path d="M291.161,137.59c51.816,0.061,93.806,42.051,93.867,93.867c0,4.713,3.821,8.533,8.533,8.533 c4.713,0,8.533-3.82,8.533-8.533c-0.071-61.238-49.696-110.863-110.933-110.933c-4.713,0-8.533,3.82-8.533,8.533 S286.448,137.59,291.161,137.59z">
+									</path>
+									<path d="M291.161,188.79c23.552,0.028,42.638,19.114,42.667,42.667c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533     c-0.038-32.974-26.759-59.696-59.733-59.733c-4.713,0-8.533,3.82-8.533,8.533S286.448,188.79,291.161,188.79z">
+									</path>
+								</svg>
+								<span>+7 777 777 77 77</span>
+							</a>
+							<a class="contacts-footer__item" href="mailto:info@alltrueist.ru">
+								<svg width="24" height="24" viewBox="0 0 512 512">
+									<path d="M469.333,64H42.667C19.135,64,0,83.135,0,106.667v298.667C0,428.865,19.135,448,42.667,448h426.667 C492.865,448,512,428.865,512,405.333V106.667C512,83.135,492.865,64,469.333,64z M42.667,85.333h426.667 c1.572,0,2.957,0.573,4.432,0.897c-36.939,33.807-159.423,145.859-202.286,184.478c-3.354,3.021-8.76,6.625-15.479,6.625 s-12.125-3.604-15.49-6.635C197.652,232.085,75.161,120.027,38.228,86.232C39.706,85.908,41.094,85.333,42.667,85.333z M21.333,405.333V106.667c0-2.09,0.63-3.986,1.194-5.896c28.272,25.876,113.736,104.06,169.152,154.453 C136.443,302.671,50.957,383.719,22.46,410.893C21.957,409.079,21.333,407.305,21.333,405.333z M469.333,426.667H42.667 c-1.704,0-3.219-0.594-4.81-0.974c29.447-28.072,115.477-109.586,169.742-156.009c7.074,6.417,13.536,12.268,18.63,16.858 c8.792,7.938,19.083,12.125,29.771,12.125s20.979-4.188,29.76-12.115c5.096-4.592,11.563-10.448,18.641-16.868 c54.268,46.418,140.286,127.926,169.742,156.009C472.552,426.073,471.039,426.667,469.333,426.667z M490.667,405.333 c0,1.971-0.624,3.746-1.126,5.56c-28.508-27.188-113.984-108.227-169.219-155.668c55.418-50.393,140.869-128.57,169.151-154.456 c0.564,1.91,1.194,3.807,1.194,5.897V405.333z">
+									</path>
+								</svg>
+								<span>
+									info@alltrueist.ru
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="popup" id="popup" aria-hidden="true">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button class="popup__close" data-close type="button"></button>
+				<div class="popup__text">
+					<h3 class="feedback__title">
+						Заказать звонок
+					</h3>
+					<form class="popup__form form">
+						<div class="form__box">
+							<input class="username _req" id="username" type="text" name="username">
+							<label for="username">Ваше имя<sup>*</sup>:</label>
+							<span class="error"></span>
+						</div>
+						<div class="form__box">
+							<input class="phone _req" id="phone" type="tel" name="phone">
+							<label for="phone">Телефон<sup>*</sup>:</label>
+							<span class="error"></span>
+						</div>
+						<p class="form__agreement">
+							Нажимая на кнопку, я принимаю
+							<a href="#">
+								условия пользовательского соглашения
+							</a>
+							и даю согласие на обработку моих персональных данных.
+						</p>
+						<button class="form__button button" type="submit">
+							отправить
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220801180938"></script>
+</body>
+
+</html>
