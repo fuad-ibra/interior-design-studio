@@ -1,7 +1,5 @@
 @charset "UTF-8";
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:regular,500,600,700,800&display=swap);
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:regular,600,700&display=swap);
 
 * {
@@ -1214,8 +1212,8 @@ body::after {
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -1583,7 +1581,6 @@ body::after {
 .content-banner__text {
   max-width: 30rem;
   padding: 1rem;
-  font-size: 1.125rem;
   line-height: 150%;
   background-color: rgba(20, 22, 24, 0.8);
 }
@@ -1624,9 +1621,9 @@ body::after {
 
 .banner .content-banner__button {
   opacity: 0;
-  -webkit-transition: opacity 1s ease-out 1.6s;
-  -o-transition: opacity 1s ease-out 1.6s;
-  transition: opacity 1s ease-out 1.6s;
+  -webkit-transition: opacity 1s ease-out 2.4s;
+  -o-transition: opacity 1s ease-out 2.4s;
+  transition: opacity 1s ease-out 2.4s;
 }
 
 .swiper-slide-active .content-banner__title {
@@ -1842,25 +1839,25 @@ body::after {
 }
 
 .item-team__image-ibg {
-  padding: 0 0 120% 0;
+  padding: 0 0 110% 0;
   overflow: hidden;
 }
 
 .item-team__image-ibg img {
-  -webkit-transition: -webkit-transform 0.5s ease-out;
-  transition: -webkit-transform 0.5s ease-out;
-  -o-transition: transform 0.5s ease-out;
-  transition: transform 0.5s ease-out;
-  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  -o-transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
 }
 
 .item-team__content {
   position: relative;
   padding: 1.25rem;
   text-align: center;
-  -webkit-transition: background-color 0.5s ease-out, margin 0.5s ease-out, padding 0.5s ease-out, color 0.1s ease;
-  -o-transition: background-color 0.5s ease-out, margin 0.5s ease-out, padding 0.5s ease-out, color 0.1s ease;
-  transition: background-color 0.5s ease-out, margin 0.5s ease-out, padding 0.5s ease-out, color 0.1s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   z-index: 2;
 }
 
@@ -2305,18 +2302,6 @@ body::after {
 .slide-history__text {
   line-height: 1.5;
 }
-
-/**
- * Swiper 7.2.0
- * Most modern mobile touch slider and framework with hardware accelerated transitions
- * https://swiperjs.com
- *
- * Copyright 2014-2021 Vladimir Kharlampidi
- *
- * Released under the MIT License
- *
- * Released on: October 27, 2021
- */
 
 @font-face {
   font-family: swiper-icons;
@@ -3694,186 +3679,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   bottom: 0;
   right: 0;
   left: 0;
-}
-
-.lg-outer .lg-video-cont {
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-}
-
-.lg-outer .lg-video-cont .lg-object {
-  width: 100% !important;
-  height: 100% !important;
-}
-
-.lg-outer .lg-has-iframe .lg-video-cont {
-  -webkit-overflow-scrolling: touch;
-  overflow: auto;
-}
-
-.lg-outer .lg-video-object {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  z-index: 3;
-}
-
-.lg-outer .lg-video-poster {
-  z-index: 1;
-}
-
-.lg-outer .lg-has-video .lg-video-object {
-  opacity: 0;
-  will-change: opacity;
-  -webkit-transition: opacity 0.3s ease-in;
-  -o-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
-}
-
-.lg-outer .lg-has-video.lg-video-loaded .lg-video-poster,
-.lg-outer .lg-has-video.lg-video-loaded .lg-video-play-button {
-  opacity: 0 !important;
-}
-
-.lg-outer .lg-has-video.lg-video-loaded .lg-video-object {
-  opacity: 1;
-}
-
-@-webkit-keyframes lg-play-stroke {
-  0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
-  }
-
-  50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px;
-  }
-
-  100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -124px;
-  }
-}
-
-@keyframes lg-play-stroke {
-  0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
-  }
-
-  50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px;
-  }
-
-  100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -124px;
-  }
-}
-
-@-webkit-keyframes lg-play-rotate {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes lg-play-rotate {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-.lg-video-play-button {
-  width: 18%;
-  max-width: 140px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  cursor: pointer;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-      -ms-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
-  will-change: opacity, transform;
-  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28), opacity 0.1s;
-  -o-transition: -o-transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28), opacity 0.1s;
-  -webkit-transition: opacity 0.1s, -webkit-transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28);
-  transition: opacity 0.1s, -webkit-transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28);
-  -o-transition: transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28), opacity 0.1s;
-  transition: transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28), opacity 0.1s;
-  transition: transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28), opacity 0.1s, -webkit-transform 0.25s cubic-bezier(0.17, 0.88, 0.32, 1.28);
-}
-
-.lg-video-play-button:hover .lg-video-play-icon-bg,
-.lg-video-play-button:hover .lg-video-play-icon {
-  opacity: 1;
-}
-
-.lg-video-play-icon-bg {
-  fill: none;
-  stroke-width: 3%;
-  stroke: #fcfcfc;
-  opacity: 0.6;
-  will-change: opacity;
-  -webkit-transition: opacity 0.12s ease-in;
-  -o-transition: opacity 0.12s ease-in;
-  transition: opacity 0.12s ease-in;
-}
-
-.lg-video-play-icon-circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  fill: none;
-  stroke-width: 3%;
-  stroke: rgba(30, 30, 30, 0.9);
-  stroke-opacity: 1;
-  stroke-linecap: round;
-  stroke-dasharray: 200;
-  stroke-dashoffset: 200;
-}
-
-.lg-video-play-icon {
-  position: absolute;
-  width: 25%;
-  max-width: 120px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
-  opacity: 0.6;
-  will-change: opacity;
-  -webkit-transition: opacity 0.12s ease-in;
-  -o-transition: opacity 0.12s ease-in;
-  transition: opacity 0.12s ease-in;
-}
-
-.lg-video-play-icon .lg-video-play-icon-inner {
-  fill: #fcfcfc;
-}
-
-.lg-video-loading .lg-video-play-icon-circle {
-  -webkit-animation: lg-play-rotate 2s linear 0.25s infinite, lg-play-stroke 1.5s ease-in-out 0.25s infinite;
-          animation: lg-play-rotate 2s linear 0.25s infinite, lg-play-stroke 1.5s ease-in-out 0.25s infinite;
-}
-
-.lg-video-loaded .lg-video-play-button {
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%) scale(0.7);
-      -ms-transform: translate(-50%, -50%) scale(0.7);
-          transform: translate(-50%, -50%) scale(0.7);
 }
 
 body[data-aos-duration="50"] [data-aos],
@@ -5502,10 +5307,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos],
     font-size: 3rem;
   }
 
-  .content-banner__text {
-    font-size: 1rem;
-  }
-
   .services__row {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -5611,7 +5412,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos],
 }
 
 @media screen {
-
+  html:not(.no-js) {}
 
   html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
     opacity: 0;
