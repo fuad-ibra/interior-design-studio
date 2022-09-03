@@ -1822,8 +1822,8 @@ body::after {
 }
 
 .item-team:hover .item-team__content {
-  margin: -2.5rem 0 0 0;
-  padding: 2.5rem 0;
+  margin: -2rem 0 0 0;
+  padding: 2rem 1rem;
   color: #fff;
   background: #dd9f56;
 }
@@ -1853,7 +1853,7 @@ body::after {
 
 .item-team__content {
   position: relative;
-  padding: 1.25rem;
+  padding: 1rem;
   text-align: center;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -1861,15 +1861,19 @@ body::after {
   z-index: 2;
 }
 
-.item-team__text {
+.item-team__content span {
   display: block;
-  margin: 0 0 0.5rem;
-  color: #dd9f56;
 }
 
 .item-team__title {
   font-weight: 600;
   font-size: 1.25rem;
+}
+
+.item-team__text {
+  display: block;
+  margin: 0 0 0.5rem;
+  color: #dd9f56;
 }
 
 .testimonials__row {
@@ -2302,6 +2306,18 @@ body::after {
 .slide-history__text {
   line-height: 1.5;
 }
+
+/**
+ * Swiper 7.2.0
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * https://swiperjs.com
+ *
+ * Copyright 2014-2021 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: October 27, 2021
+ */
 
 @font-face {
   font-family: swiper-icons;
